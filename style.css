@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Briem Hand", cursive;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color:black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    
+}
+.descrição{
+    color: aliceblue;
+}
+/*estilo da interface superior */
+
+header{
+    padding: 40px 4%;
+    
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logojpg{
+    width: 400px;
+}
+
+header a{
+    color: rgb(168, 165, 165);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: red;
+    transform: scale(1.05);
+}
+
+
+header nav ul{
+    list-style: none;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    color: red;
+    font-size: 40px;
+}
+
+.samuraicontato button{
+    padding: 10px 40px; 
+    margin-top: 2%;
+    font-size: 38px;
+    font-weight: 600;
+    background-color: red;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    
+
+}
+.samuraicontato button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0  #f8070770;
+
+}
+
+/*estilo do corpo principal*/
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-site{
+    margin-bottom: 10%;
+}
+
+.texto-site h1{
+    color:red;
+    font-size: 45px;
+    padding: 0 0 10px 0 ;
+}
+
+.descrição{
+    padding: 0 60px 0 0;
+    font-size: 25px;
+    color: white;
+
+}
+
+h2.titulo span{
+    color: red;
+}
+
+.foto {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 0 8px;
+    margin: auto;
+
+}
+
+#conteudo{
+    background-color: aqua;
+    border: color red green blue;
+}
+
+section.sobre{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+section.sobre{
+    padding:40px 4%;   
+}
+section.sobre .flex{
+    gap:60px;
+}
+.sobre .artista-box{
+    color:white;
+    padding:40px;
+    border-radius: 20px;
+    border:2px ;
+    margin-top: 45px;
+    transition: .2s;
+
+}
+.sobre .artista-box:hover{
+    transform:scale(1.05) ;
+    box-shadow: 0 0 8px;
+}
+.sobre .artista-box i{
+    font-size: 60px;
+    color: rgba(219, 211, 206, 0.171);
+}
+.sobre .artista-box h3{
+    font-size: 28px;
+    margin:15px 0px ;
+}
+
+.sobre .estudio-box{
+    color:white;
+    padding:40px;
+    border-radius: 20px;
+    border:2px ;
+    margin-top: 45px;
+    transition: .2s;
+}
+.sobre .estudio-box:hover{
+    transform:scale(1.05) ;
+    box-shadow: 0 0 8px;
+
+}
+.sobre .estudio-box i{
+    font-size: 60px;
+    color: rgba(219, 211, 206, 0.301);
+}
+.sobre .estudio-box h3{
+    font-size: 28px;
+    margin:15px 0px ;
+}
+
+.sobre .galeria{
+    color:white;
+    padding:40px;
+    border-radius: 20px;
+    border:2px ;
+    margin-top: 45px;
+    transition: .2s;
+}
+.sobre .galeria:hover{
+    transform:scale(1.05) ;
+    box-shadow: 0 0 8px;
+
+}
+.sobre .galeria i{
+    font-size: 60px;
+    color: rgba(219, 211, 206, 0.301);
+}
+.sobre .galeria h3{
+    font-size: 28px;
+    margin:15px 0px ;
+}
+
+section .infos{
+    padding:40px 4%;
+}
+.img-info{
+    border: 2px solid rgb(163, 153, 153);
+}
+section.infos .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.meustrab{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.txt-info{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+.txt-info h2{
+    font-size: 40px;
+
+
+}
+
+.titulo{
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.txt-info h2 span{
+     color: red;
+     display: block;
+     text-align: center;
+}
+.infos .txt-info .social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;;
+    border: none;
+    background-color:black;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 10px;
+    font-size: 22px;
+
+}
+.infos .txt-info .social button:hover{
+    transform:scale(1.15) ;
+    box-shadow: 0 0 8px;
+    transition: .2s;
+}
+.social img{
+    max-width: 60px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+.trabalhos {
+    color: red;
+    display: block;
+    margin: 20px ;
+    text-align: justify;
+}
+.trabalhos .h2{
+    font-size: 40px;
+    color:white;
+}
+
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 6px #ffffff11;
+}
+section.portfolio .flex{
+    gap: 80px;
+}
+
+.img-port{
+    width: 360px;
+    height: 400px;
+    background-color: red;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 0.5s;
+    position: relative;
+    border-radius: 40px;
+}
+
+.img-port{
+    background-position: 100% 100%;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;    
+}
+.overlay :hover{
+    opacity:1s;
+}
+.img-port:hover{
+    transform:scale(1.05) ;
+    box-shadow: 0 0 1px;
+    color:white;
+
+}
+
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    border-radius: 15px;
+    outline: 0;
+    padding: 20px 15px;
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form textarea{
+    resize: none;
+    height: 200px;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input[type=submit]{
+    width:120px;
+    background-color: red;
+    font-weight:600;
+    color: black;
+}
+form .btn-enviar input[type=submit]:hover{
+    box-shadow: 0px 0px 8px #f8070770;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff17;
+    
+
+}
+
+footer img{
+    max-width: 100px;
+    background-color: black;
+}
+footer .flex{
+    justify-content: center;
+}
+
+footer .social{
+    align-items: center;
+    background-color: black;
+}
+
+footer button{
+    background-color: black;
+    resize: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+footer button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    border-bottom: 2px solid red;
+}
+
+.borda{
+    border-top: 2px solid red;
+}
